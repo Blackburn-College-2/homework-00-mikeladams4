@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package homework0;
 
 import java.util.Scanner;
 
 /**
+ * A program that has you guess a randomly selected meal.
  *
- * @author mikel.adams
+ * @author Mikel Adams 1/17/2020
  */
 public class Homework0 {
 
@@ -48,7 +44,7 @@ public class Homework0 {
         } else if (guess2.equalsIgnoreCase(answer)) {
             System.out.println("Correct! You win.");
             System.exit(0);
-        } else if (!(guess1.equalsIgnoreCase("sushi") || guess1.equalsIgnoreCase("shrimp") || guess1.equalsIgnoreCase("tacos"))) {
+        } else if (!(guess2.equalsIgnoreCase("sushi") || guess2.equalsIgnoreCase("shrimp") || guess2.equalsIgnoreCase("tacos"))) {
             System.out.println("Thats not an option! You lose.");
             System.exit(0);
         } else {
@@ -65,7 +61,7 @@ public class Homework0 {
         } else if (guess3.equalsIgnoreCase(answer)) {
             System.out.println("Correct! You win.");
             System.exit(0);
-        } else if (!(guess1.equalsIgnoreCase("sushi") || guess1.equalsIgnoreCase("shrimp") || guess1.equalsIgnoreCase("tacos"))) {
+        } else if (!(guess3.equalsIgnoreCase("sushi") || guess3.equalsIgnoreCase("shrimp") || guess3.equalsIgnoreCase("tacos"))) {
             System.out.println("Thats not an option! You lose.");
             System.exit(0);
         }
